@@ -7,11 +7,15 @@
 ```
 python3 -m venv env
 ```
-2. Установка зависимости:
+2. Активация окружения
+```
+source env/bin/activate
+```
+3. Установка зависимости:
 ```
 pip3 install -r requiremets.txt
 ```
-3. Запуск сервиса:
+4. Запуск сервиса:
 ```
 python3 app.py
 ```
