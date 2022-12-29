@@ -31,3 +31,13 @@ python3 request_example.py
 ```
 Egyptian_cat
 ```
+
+Также модель сейчас равёрнута по адресу http://93.175.9.182:8900/predict <br/>
+К ней можно обратиться либо способом выше с указанием в конфиге 'host: "93.175.9.182"' и 'port: "8900"', либо через curl запрос <br/>
+Пример curl запроса:
+```
+!curl \
+-F 'file=@/path/to/image/image.png;type=image/png' \
+-X POST \
+http://93.175.9.182:8900/predict
+```
