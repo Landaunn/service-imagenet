@@ -1,5 +1,5 @@
 # service-imagenet
-В данном репозитроии находится сервис на Flask для классификации изображений с помощью нейроннй сети (resnet50)
+В данном репозитроии находится сервис на Flask для классификации изображений с помощью нейронной сети (resnet50)
 
 ## Поднятие сервиса
 
@@ -21,13 +21,13 @@ python3 app.py
 ```
 
 ## Запросы к сервису
-Для настройки хоста и указании файла, который мы хотим классифицировать используется конфигурационный файл [request_config.yaml](https://github.com/Landaunn/service-imagenet/blob/main/request_config.yaml), где можно указать эти параметры <br/>
+Для настройки хоста и указания файла, который мы хотим классифицировать используется конфигурационный файл [request_config.yaml](https://github.com/Landaunn/service-imagenet/blob/main/request_config.yaml), где можно указать эти параметры <br/>
 
 Далее запускается код запроса:
 ```
 python3 request_example.py
 ```
-Для [картинки](https://github.com/Landaunn/service-imagenet/blob/main/cat.png) из репозитроия ответ сервиса:
+Для [картинки](https://github.com/Landaunn/service-imagenet/blob/main/cat.png) из репозитория ответ сервиса:
 ```
 Egyptian_cat
 ```
